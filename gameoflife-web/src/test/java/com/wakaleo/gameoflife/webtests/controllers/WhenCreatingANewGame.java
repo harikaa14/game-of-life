@@ -22,7 +22,7 @@ public class WhenCreatingANewGame {
         controller = new GameController();
     }
 
-    @Ignore{"disabled unit test"}
+    @Ignore("disabled unit test")
     @Test
     public void anEmptyUniverseShouldBeAddedToTheSession() {
         ModelAndView homeView = controller.newGame();
