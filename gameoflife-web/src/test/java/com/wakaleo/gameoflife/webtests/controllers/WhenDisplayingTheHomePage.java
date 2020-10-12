@@ -16,7 +16,9 @@ public class WhenDisplayingTheHomePage {
         ModelAndView homeView = controller.home();
         assertThat(homeView.getViewName(), is("home"));
     }
-
+    
+    
+    @Ignore("disabled unit test")
     @Test
     public void theIndexUrlShouldDisplayTheHomePage() {
         HomePageController controller = new HomePageController();
