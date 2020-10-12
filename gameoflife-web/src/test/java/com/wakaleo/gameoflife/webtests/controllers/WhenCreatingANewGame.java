@@ -29,7 +29,7 @@ public class WhenCreatingANewGame {
         assertThat(homeView.getModel().get("universe"), is(not(nullValue())));
     }
 
-    @Ignore("disabled unit test")
+  
     @Test
     public void whenTheUserCreatesTheFirstGenerationAnEmptyUniverseShouldBeAddedToTheSession() {
         HttpServletRequest request = mock(HttpServletRequest.class);
@@ -37,7 +37,7 @@ public class WhenCreatingANewGame {
         assertThat(homeView.getModel().get("universe"), is(not(nullValue())));
     }
 
-    @Ignore("disabled unit test")
+ 
     @Test
     public void whenTheUserCreatesTheFirstGenerationTheUniverseDimensionsShouldBeAddedToTheSession() {
         HttpServletRequest request = mock(HttpServletRequest.class);
