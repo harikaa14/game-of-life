@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
-
+import org.junit.Ignore;
 
 public class WhenCreatingANewGame {
 
