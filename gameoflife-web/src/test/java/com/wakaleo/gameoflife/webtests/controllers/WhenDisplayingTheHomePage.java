@@ -9,7 +9,7 @@ import org.junit.Ignore;
 
 public class WhenDisplayingTheHomePage {
 
-    @Ignore("disabled unit test")
+ 
     @Test
     public void theHomeUrlShouldDisplayTheHomePage() {
         HomePageController controller = new HomePageController();
@@ -17,8 +17,7 @@ public class WhenDisplayingTheHomePage {
         assertThat(homeView.getViewName(), is("home"));
     }
     
-    
-    @Ignore("disabled unit test")
+
     @Test
     public void theIndexUrlShouldDisplayTheHomePage() {
         HomePageController controller = new HomePageController();
